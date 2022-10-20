@@ -16,7 +16,7 @@ public class Recursion_Subsequences {
         if(s.length()==0)
         {
             c++;
-            System.out.println(ss+" ");
+            System.out.print(ss+" ");
             return;
         }
         char ch= s.charAt(0);
